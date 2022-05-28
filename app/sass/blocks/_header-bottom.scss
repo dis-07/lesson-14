@@ -1,0 +1,28 @@
+.header-bottom {
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-bottom h1 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 250px;
+    margin-bottom: 305px;
+}
+
+.header-bottom__link {
+
+}
+
+.header-bottom__link:hover svg circle {
+    stroke: #F0145A;
+}
+
+.header-bottom__link:hover svg path {
+    stroke: #F0145A;
+}

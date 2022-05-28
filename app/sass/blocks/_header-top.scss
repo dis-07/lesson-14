@@ -1,0 +1,132 @@
+.header-top {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 0 30px;
+}
+
+.header-top-box {
+    display: flex;
+    align-items: center;
+}
+
+.header-top__lang {
+    display: inline-flex;
+    align-items: center;
+}
+
+.header-top__lang-btn {
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 6px 7px;
+    text-transform: uppercase;
+}
+
+.header-top__lang-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+}
+
+.active-btn {
+    background: #F0145A;
+    border-radius: 8px; 
+}
+
+.header-top__contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 19px;
+}
+
+.header-top__contacts-adress::before {
+    content: '';
+    background: #E6E6F0;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: -13px;
+}
+
+.header-top__contacts-adress {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.header-top__contacts-tell::before{
+    content: '';
+    background: #E6E6F0;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: -13px;
+}
+
+.header-top__contacts-tell {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 19px;
+}
+
+.header-top__contacts-fb::before {
+    content: '';
+    background: #E6E6F0;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -13px;
+}
+
+.header-top__contacts-fb {
+    text-decoration: none;
+    display: inline-flex;
+    margin-left: 19px;
+}
+
+.header-top__contacts-fb:hover svg path {
+    fill: #F0145A;
+}
+
+.header-top__menu {
+    grid-column-start: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-top__menu ul {
+    display: flex;
+}
+
+.header-top__menu li {
+    list-style-type: none;
+}
+
+.header-top__menu-links {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+.header-top__menu-links:hover {
+    border-bottom: 2px solid white;
+}

@@ -1,0 +1,72 @@
+.compano-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.compani-box h2 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #323264;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.compani-box__item {
+    height: 120px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-1 {
+    background: #1C4280;
+}
+
+.color-2 {
+    background: #143646;
+}
+
+.color-3 {
+    background: linear-gradient(0deg, #F48B30, #F48B30), #F48B30;
+}
+
+.color-4 {
+    background: #9E4DC3;
+}
+
+.color-5 {
+    background: #FD9339;
+}
+
+.color-6 {
+    background: #E2E2E4;
+}
+
+.color-7 {
+    background: #C71C36;
+}
+
+.color-8 {
+    background: #DCF3F9;
+}
+
+.color-9 {
+    background: #EAEAEA;
+}
+
+.color-10 {
+    background: #282240;
+}
+
+.color-11 {
+    background: #1D4568;
+}
+
+.color-12 {
+    background: #000000;
+}

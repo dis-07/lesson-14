@@ -1,0 +1,22 @@
+.gradient {
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    border-radius: 0px 0px 12px 12px;
+}
+
+.gradient-bottom {
+    margin: 0 -15px;
+}
+
+.gradient-bottom__line1 {
+    padding: 0 15px;
+    background: #CACADB;
+    border-radius: 0px 0px 12px 12px;
+    height: 10px;
+}
+
+.gradient-bottom__line2 {
+    padding: 0 15px;
+    background: #E7E7F2;
+    border-radius: 0px 0px 12px 12px;
+    height: 10px;
+}
