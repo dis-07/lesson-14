@@ -1,0 +1,21 @@
+.services-item__link {
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #24A3FF;
+    text-decoration: none;
+}
+
+.services-item__link svg {
+    margin-bottom: 30px;
+}
+
+.services-item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}

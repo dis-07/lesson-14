@@ -1,0 +1,18 @@
+.about-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 60px;
+    max-width: 380px;
+}
+
+.about-item button {
+    border: none;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-align: right;
+    color: #B3B3BA;
+    background-color: transparent;
+    cursor: pointer;
+}
